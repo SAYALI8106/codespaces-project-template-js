@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/About1.avif";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am an aspiring Full Stack Web Developer with a keen interest in coding, user experience, and inclusive design. My learning journey involves hands-on projects, focus group testing, and creating mobile-friendly user interfaces. I am passionate about creating accessible and visually appealing web applications that provide excellent user experiences.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Coding",
-  "User experience",
-  "Inclusive design",
+  "Core Technologies",
+  "Frameworks/Libraries",
+  "SEO and Analytics",
   "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Performance Optimization",
+  "Version Control",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Passinated in Full satck";
+  "Empowering users through intuitive design and robust web solutions, driven by creativity and continuous learning.";
 
 const About = () => {
   return (

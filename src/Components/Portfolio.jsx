@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.avif";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,29 +31,30 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Personal Portfolio Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Designed and developed a personal portfolio website to showcase projects and skills. Implemented responsive design for optimal viewing across devices.",
+    url: "https://sayali8106.github.io/Portfolio/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Food Delivery Website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Designed and implemented a website for a food delivery service. Included features for browsing menus and placing orders.",
+    url: "https://wondrous-arithmetic-d7e1ea.netlify.app",
   },
   {
-    title: "My Resume Site",
+    title: "Redbus Booking Service",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a bus booking service similar to Redbus. Featured functionalities for searching routes and managing bookings.",
+    url: "https://sayali8106.github.io/RedBus_Clone/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "IT Solutions Company Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a website for an IT solutions company. Showcased services offered, client testimonials, and contact information.",
+    url: " https://sayali8106.github.io/ITSolutions/",
   },
+ 
 ];
 
 const Portfolio = () => {
@@ -64,7 +65,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft"}}
             alt={imageAltText}
           />
         </div>

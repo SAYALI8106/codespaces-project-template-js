@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-
+import Education from "./Components/Education";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+
 
 /**
  * This object represents your information. The project is set so that you
@@ -27,9 +28,9 @@ const siteProps = {
   name: "Sayali Gayke",
   title: "Full Stack MERN Developer",
   email: "sayaligayke810@gmail.com",
-  gitHub: "https://github.com/SAYALI8106",
+  gitHub: "SAYALI8106",
   instagram: "",
-  linkedIn: "https://www.linkedin.com/in/sayali-gayke-9728592a7/",
+  linkedIn: "sayali-gayke-9728592a7",
   medium: "",
   twitter: "",
   youTube: "",
