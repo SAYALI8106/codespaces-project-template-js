@@ -32,9 +32,9 @@ const description =
  */
 const skillsList = [
   "Core Technologies",
-  "Frameworks/Libraries",
+  "Frameworks",
   "SEO and Analytics",
-  "Focus group testing",
+  "Group Testing",
   "Performance Optimization",
   "Version Control",
 ];
