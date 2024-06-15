@@ -27386,9 +27386,9 @@ const imageAltText = "purple and blue abstract background";
  * passionate about, or enjoy,
  */ const skillsList = [
     "Core Technologies",
-    "Frameworks/Libraries",
+    "Frameworks",
     "SEO and Analytics",
-    "Focus group testing",
+    "Group Testing",
     "Performance Optimization",
     "Version Control", 
 ];
